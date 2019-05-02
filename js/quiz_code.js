@@ -22,10 +22,7 @@ window.onload = function()
         });
         console.log(key);
 
-        let div = document.createElement("div");
-        div.classList.add("result");
-        div.innerHTML = answers[key]["description"];
-        document.querySelector("main").appendChild(div);
+        document.querySelector(".result").innerHTML = answers[key]["description"];
         let imgSrc = "img/" + key + ".jpg"
         document.images["img"].src = imgSrc
         console.log(imgSrc);
