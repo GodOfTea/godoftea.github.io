@@ -15,6 +15,7 @@
 
 .answer
 {
+    cursor: pointer;
     width: 600px; 
     margin: 0 auto;
     padding-inline-start: 0px;
@@ -35,6 +36,7 @@
 }
 .answer li::before
 {
+    cursor: pointer;
     position: absolute;
     top: -0.7em;
     padding-left: 0.4em;
